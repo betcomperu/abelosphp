@@ -6,17 +6,17 @@
 trait Producto
 {
     public $strProducto;
-    public $fltPRecio;
+    public $fltPrecio;
     public $intStock;
 
-    public function setProducto(string $producto, float $precio, int $stock)
+    public function setProducto(string $producto, float $precio, int $stock) // Crea un producto
     {
         $this->strProducto = $producto;
         $this->fltPrecio = $precio;
         $this->intStock = $stock;
     }
 
-    public function getProducto() 
+    public function getProducto() // Muestra un producto
     {
         $strInfo = "
         Producto = {$this->strProducto} <br>
@@ -24,6 +24,11 @@ trait Producto
         Stock = {$this->intStock}<br><br>
         ";
         return $strInfo;
+    }
+
+    public function setStock(int $cantidad){
+
+        $this->intStock = $this->intStock - $cantidad;
     }
 }
 

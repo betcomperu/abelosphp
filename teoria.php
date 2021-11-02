@@ -17,6 +17,19 @@ for ($i=2010; $i<2050 ; $i=$i+2)
 }
 ?>
 
+<?php 
+
+echo "Este es la ruta del archivo que esta corriendo : ".(__FILE__);
+echo "<br>";
+echo "Este es la Linea de codigo del archivo que esta corriendo : ".(__LINE__);
+echo "<br>";
+echo "Este es la ruta del Directorio ubicado el archivo php : ".(__DIR__);
+echo "<br>";
+echo "Este es la ruta del Directorio ubicado el archivo php : ".(__CLASS__);
+?>
+
+
+
 </body>
 </html>
 
