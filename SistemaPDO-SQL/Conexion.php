@@ -22,5 +22,5 @@ class Conexion{
     }
 
 }
- $conect = new Conexion();
+ $conecto = new Conexion();
 ?>
