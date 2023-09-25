@@ -3,7 +3,7 @@
 require_once ("ClassOperacion.php"); // Cargo la Clase primero
 
 echo "<h2>Siendo los dos numeros 4 y 5</h2>";
-##### INSTANCIO #######
+##### INSTANCIANDO #######
 $operaciones1 = new Operacion(4, 5); // Instancio el Objeto "suma" con la Clase Operaciones1
 ######################
 # al instanciar la Clase ClassOperacion cargo todo los metodos que tiene dentro
